@@ -1,0 +1,8 @@
+{
+    "pack": {
+        "description": "This is a simple template pack for Compact Diamonds using the \"enchantment_glint_override\" component",
+        "max_format": 84,
+        "min_format": 65,
+        "pack_format": 65
+    }
+}
