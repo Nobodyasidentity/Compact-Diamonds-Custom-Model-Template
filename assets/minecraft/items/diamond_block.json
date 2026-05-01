@@ -1,13 +1,17 @@
 {
   "model": {
-    "type": "minecraft:condition",
-    "property": "minecraft:has_component",
-    "component": "minecraft:enchantment_glint_override",
-    "on_true": {
-      "type": "minecraft:model",
-      "model": "minecraft:block/compact_diamond_block"
-    },
-    "on_false": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "compact_diamond_block",
+        "model": {
+          "type": "minecraft:model",
+          "model": "compact_diamonds:block/compact_diamond_block"
+        }
+      }
+    ],
+    "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:block/diamond_block"
     }

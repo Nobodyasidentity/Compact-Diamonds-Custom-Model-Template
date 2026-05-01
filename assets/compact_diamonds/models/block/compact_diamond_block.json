@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "minecraft:block/compact_diamond_block"
+    "all": "compact_diamonds:block/compact_diamond_block"
   }
 }
